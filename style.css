@@ -1,0 +1,147 @@
+/* BASE STYLE CUSTOM */
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    text-align: center;
+    color: #fff;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+}
+
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
+
+
+input {
+    border: solid 2px black !important;
+    height: 70px;
+}
+
+
+.validation-form {
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 5rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+
+
+.padding-text {
+    padding: 1rem 4rem 1rem;
+}
+
+.padding-input {
+    padding: .5rem 2rem;
+    margin: 0;
+}
+
+
+.margin {
+    margin-top: 3rem;
+}
+
+
+.margin-top {
+    margin-top: 10rem;
+}
+
+
+.try-it {
+    background-color: hsl(248, 32%, 49%);
+    padding: 2rem;
+    width: 100%;
+    margin: 4rem auto 2rem;
+    border-radius: 1rem;
+    transition: .5s ease-in-out;
+    box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.try-it:hover {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom {
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    border: none;
+    letter-spacing: .2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+
+.btn-custom:hover {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+
+input::placeholder {
+    color: gray !important;
+    opacity: 0.5 !important;
+    font-size: 1.2rem;
+}
+
+
+.email::placeholder {
+    color: red !important;
+}
+
+
+.tandc {
+    color: hsl(246, 25%, 77%);
+}
+
+
+.tandc-anchor {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+
+
+.invalid-feedback-custom {
+    display: none;
+    color: #dc3545;
+    font-size: .875em;
+}
+
+
+.invalid-feedback2 {
+    display: none;
+    color:#dc3545;
+    font-size: .8rem;
+}
+
+
+.password:focus {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+
+@media screen and (min-width: 960px) {
+    .padding-text {
+        padding: 1rem 3rem 1rem;
+        text-align: start !important;
+    }
+}
+
+
+
+
+/* END OF CSS */
